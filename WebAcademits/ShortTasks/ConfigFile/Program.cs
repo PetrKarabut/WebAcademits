@@ -10,6 +10,9 @@ namespace ConfigFile
     {
         static void Main(string[] args)
         {
+            var uri = System.Configuration.ConfigurationManager.AppSettings["uri"];
+            Console.WriteLine(uri);
+            Console.Read();
         }
     }
 }
