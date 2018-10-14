@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ShortTasks", "ShortTasks", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigFile", "ShortTasks\ConfigFile\ConfigFile.csproj", "{D8C40750-C25F-4073-BE47-9F7D0FB15DA9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoNet", "AdoNet\AdoNet.csproj", "{813846E4-769E-4A9C-B604-2923A6F0029B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{D8C40750-C25F-4073-BE47-9F7D0FB15DA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8C40750-C25F-4073-BE47-9F7D0FB15DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8C40750-C25F-4073-BE47-9F7D0FB15DA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{813846E4-769E-4A9C-B604-2923A6F0029B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{813846E4-769E-4A9C-B604-2923A6F0029B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{813846E4-769E-4A9C-B604-2923A6F0029B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{813846E4-769E-4A9C-B604-2923A6F0029B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D8C40750-C25F-4073-BE47-9F7D0FB15DA9} = {7A75E47F-2AE6-42A8-A886-067A1782E424}
+		{813846E4-769E-4A9C-B604-2923A6F0029B} = {7A75E47F-2AE6-42A8-A886-067A1782E424}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {369C3A1C-044F-4560-8FDA-A23E9B87AEB2}
