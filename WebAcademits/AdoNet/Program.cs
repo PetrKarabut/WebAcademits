@@ -19,10 +19,10 @@ namespace AdoNet
                 connection.Open();
                 connection.WriteState();
                 connection.WriteProductsCount();
-                // connection.AddCategory("Other");
-                //connection.AddProduct("other product", 5);
-                //connection.EditProduct(38, "other prod", 4);
-                //connection.DeleteProduct(38);
+                connection.AddCategory("Other");
+                connection.AddProduct("other product", 5);
+                connection.EditProduct(38, "other prod", 4);
+                connection.DeleteProduct(38);
 
                 connection.WriteAllProducts2();
             }
