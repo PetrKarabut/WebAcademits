@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigFile", "ShortTasks\Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoNet", "AdoNet\AdoNet.csproj", "{813846E4-769E-4A9C-B604-2923A6F0029B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopEF", "ShopEF\ShopEF.csproj", "{BF77D690-CE0E-485F-8FAA-2435D9F1F3B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{813846E4-769E-4A9C-B604-2923A6F0029B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{813846E4-769E-4A9C-B604-2923A6F0029B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{813846E4-769E-4A9C-B604-2923A6F0029B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF77D690-CE0E-485F-8FAA-2435D9F1F3B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF77D690-CE0E-485F-8FAA-2435D9F1F3B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF77D690-CE0E-485F-8FAA-2435D9F1F3B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF77D690-CE0E-485F-8FAA-2435D9F1F3B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D8C40750-C25F-4073-BE47-9F7D0FB15DA9} = {7A75E47F-2AE6-42A8-A886-067A1782E424}
 		{813846E4-769E-4A9C-B604-2923A6F0029B} = {7A75E47F-2AE6-42A8-A886-067A1782E424}
+		{BF77D690-CE0E-485F-8FAA-2435D9F1F3B3} = {7A75E47F-2AE6-42A8-A886-067A1782E424}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {369C3A1C-044F-4560-8FDA-A23E9B87AEB2}
