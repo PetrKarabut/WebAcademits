@@ -50,8 +50,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Console\ConsoleAlias.cs" />
+    <Compile Include="Console\ConsoleFunctions.cs" />
+    <Compile Include="Console\EntityPropertyInfo.cs" />
+    <Compile Include="Context.cs" />
+    <Compile Include="DbInitializer.cs" />
     <Compile Include="Model\Buyer.cs" />
     <Compile Include="Model\Category.cs" />
+    <Compile Include="Model\IEntity.cs" />
     <Compile Include="Model\Order.cs" />
     <Compile Include="Model\Product.cs" />
     <Compile Include="Model\Purchase.cs" />
